@@ -1,0 +1,30 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhat104/learn_nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "learn"
+  ],
+  "author": "NhatMM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhat104/learn_nodejs/issues"
+  },
+  "homepage": "https://github.com/nhat104/learn_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
